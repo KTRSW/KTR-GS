@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신청서</title>
+</head>
+<body>
+    <h1>신청서</h1>
+    <form action="/submit" method="POST">
+        이름: <input type="text" name="name" required><br><br>
+        이메일: <input type="email" name="email" required><br><br>
+        신청 사유:<br>
+        <textarea name="reason" rows="5" cols="30" required></textarea><br><br>
+        <button type="submit">제출</button>
+    </form>
+</body>
+</html>
